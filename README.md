@@ -4,6 +4,12 @@
  <img width="600" src="snake.svg" alt="snake"/>
 </p>
 
+<picture>
+  <source width="600"  media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source width="600"  media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+
 ## About me
 [![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://tlgg.ru/@Sarsen_FE)
 
