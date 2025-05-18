@@ -1,0 +1,40 @@
+name: Generate Snake Animation
+
+on:
+  push:
+    branches:
+      - main  # Укажи основную ветку
+  schedule:
+    - cron: "0 0 * * *"  # Раз в сутки
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+      - name: Generate snake animation
+        uses: Platane/snk@v2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg
+
+      - name: Generate dark mode snake
+        uses: Platane/snk@v2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake-dark.svg
+          color_snake: "#ffffff"
+          color_dots: "#555555"
+
+      - name: Commit and push snake animation
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          mv dist/snake.svg github-snake.svg
+          mv dist/snake-dark.svg github-snake-dark.svg
+          git add github-snake.svg github-snake-dark.svg
+          git commit -m "Generated Snake Animation"
+          git push
