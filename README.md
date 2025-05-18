@@ -1,9 +1,29 @@
-## 👋 Hi there, i'am Sarsen
-***
-I'm Font-end developer
-***
-[![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)](https://t.me/@Sarsen_FE)
+<h1 align="center">👋 Hello! I'm Sarsenn </h1>
 
+<p align="center">
+ <img width="600" src="assets/github-snake.svg" alt="snake"/>
+</p>
+
+## About me
+[![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://tlgg.ru/@Sarsen_FE)
+
+I'm a front-end developer from Kazakhstan 🇰🇿
+
+## 🙏 Visit my website
+[BaggerFast's docs](https://baggerfast.github.io/Sarsenn) - Here I post helpful IT manuals. They can be used as references
+
+<details align="left">
+  <summary><h2><b>📚 My stack</b></h2></summary>
+  <p>
+    <h3>Langs</h3>
+    <img src="https://skillicons.dev/icons?i=dotnet,js,html,css,react&perline="/>
+    <h3>Frameworks / Tools</h3>
+    <img src="https://skillicons.dev/icons?i=bootstrap,gulp&perline=" />
+    <h3>Software</h3>
+    <img src="https://skillicons.dev/icons?i=visualstudio&perline=" />
+    <br>
+  </p>
+</details>
 
 <!--
 **Sarsenn/Sarsenn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
