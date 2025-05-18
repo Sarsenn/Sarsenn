@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hello! I'm Sarsenn </h1>
 
 <p align="center">
- <img width="600" src="assets/github-snake.svg" alt="snake"/>
+ <img width="600" src="snake.svg" alt="snake"/>
 </p>
 
 ## About me
