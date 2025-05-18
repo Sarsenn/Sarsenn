@@ -10,7 +10,7 @@
 I'm a front-end developer from Kazakhstan 🇰🇿
 
 ## 🙏 Visit my website
-[BaggerFast's docs](https://baggerfast.github.io/Sarsenn) - Here I post helpful IT manuals. They can be used as references
+[Sarsenn's docs](https://sarsenn.github.io/Sarsenn) - Here I post helpful IT manuals. They can be used as references
 
 <details align="left">
   <summary><h2><b>📚 My stack</b></h2></summary>
