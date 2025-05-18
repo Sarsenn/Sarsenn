@@ -1,9 +1,5 @@
 <h1 align="center">👋 Hello! I'm Sarsenn </h1>
 
-<p align="center">
- <img width="600" src="snake.svg" alt="snake"/>
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
